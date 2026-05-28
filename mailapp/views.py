@@ -12,7 +12,7 @@ class SendMailView(APIView):
             subject="Auto Mail",
             message="Hi Hello How are you",
             from_email=settings.EMAIL_HOST_USER,
-            recipient_list=["receiver@gmail.com"],
+            recipient_list=["sonycheviti@gmail.com"],
         )
 
         return Response({
