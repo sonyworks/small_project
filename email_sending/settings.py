@@ -121,6 +121,8 @@ ALLOWED_HOSTS = ['*']
 
 STATIC_URL = 'static/'
 
+from decouple import config
+
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 
 EMAIL_HOST = 'smtp.gmail.com'
